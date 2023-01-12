@@ -9,7 +9,6 @@ function getComputerChoice (){
 let playerInput = prompt("Please enter your choice");  
 let playerSelection = playerInput.toLowerCase();
 
-
 function playRound(playerSelection, computerSelection) {
     if (!possible_choices.includes(playerSelection)) {
         return "Invalid input POFYUZ!"
